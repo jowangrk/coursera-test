@@ -1,1 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>module2 assignment</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      h1 {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 15px;
+      }
+
+      div.chiken1 {
+        background-color: rgb(236, 228, 228);
+        border: solid black;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 5px;
+      }
+
+      p.chiken2 {
+        background-color: darksalmon;
+        border: black solid 1px;
+        float: right;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      div.beef1 {
+        background-color: rgb(236, 228, 228);
+        border: solid black 1px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 5px;
+      }
+      p.beef2 {
+        background-color: rgb(204, 255, 255);
+        border: black solid 1px;
+        float: right;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      div.sushi1 {
+        background-color: rgb(178, 255, 201);
+        border: solid black 1px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 5px;
+      }
+      p.sushi2 {
+        background-color: rgb(112, 13, 88);
+        border: black solid 1px;
+        float: right;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      /* media quary for large devices */
+      @media (min-width: 992px) {
+        .chiken1,
+        .beef1,
+        .sushi1 {
+          float: left;
+          border: 1px solid rgb(25, 30, 80);
+        }
+        .chiken1 {
+          width: 33.33%;
+        }
+        .beef1 {
+          width: 66.66%;
+        }
+        .sushi1 {
+          width: 100%;
+        }
+      }
+      /* media quary for medium devices */
+      @media (min-width: 768px) and (max-width: 992px;) {
+        .chiken1,
+        .beef1,
+        .sushi1 {
+          float: left;
+          border: 1px solid rgb(25, 30, 80);
+        }
+        .chiken1 {
+          width: 50%;
+        }
+        .beef1 {
+          width: 50%;
+        }
+        .sushi1 {
+          width: 100%;
+        }
+      }
+
+      /* media query for small devices */
+      @media (max-width: 762px;) {
+        .chiken1,
+        .beef1,
+        .sushi1 {
+          float: left;
+          border: 1px solid rgb(25, 30, 80);
+        }
+        .chiken1 {
+          width: 100%;
+        }
+        .beef1 {
+          width: 100%;
+        }
+        .sushi1 {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Our menu</h1>
+    <div class="chiken1">
+      <p class="chiken2">Chicken</p>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the
+      1500s, when an unknown printer took a galley of type and scrambled it to
+      make a type specimen book. It has survived not only five centuries, but
+      also the leap into electronic typesetting, remaining essentially
+      unchanged. It was popularised in the 1960s with the release of Letraset
+      sheets containing Lorem Ipsum passages, and more recently with desktop
+      publishing software like Aldus PageMaker including versions of Lorem
+      Ipsum.
+    </div>
+
+    <div class="beef1">
+      <p class="beef2">Beef</p>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the
+      1500s, when an unknown printer took a galley of type and scrambled it to
+      make a type specimen book. It has survived not only five centuries, but
+      also the leap into electronic typesetting, remaining essentially
+      unchanged. It was popularised in the 1960s with the release of Letraset
+      sheets containing Lorem Ipsum passages, and more recently with desktop
+      publishing software like Aldus PageMaker including versions of Lorem
+      Ipsum.
+    </div>
+
+    <div class="sushi1">
+      <p class="sushi2">Sushi</p>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the
+      1500s, when an unknown printer took a galley of type and scrambled it to
+      make a type specimen book. It has survived not only five centuries, but
+      also the leap into electronic typesetting, remaining essentially
+      unchanged. It was popularised in the 1960s with the release of Letraset
+      sheets containing Lorem Ipsum passages, and more recently with desktop
+      publishing software like Aldus PageMaker including versions of Lorem
+      Ipsum.
+    </div>
+  </body>
+</html>
 
